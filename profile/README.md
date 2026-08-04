@@ -15,7 +15,7 @@ People remember stories, not ads. Charities are the largest untapped source of p
 We're an AI-first engineering team, leveraging AI tools throughout our development workflow:
 
 - **Claude Code** for AI-assisted coding
-- **GitHub SpecKit** for spec-driven feature development
+- **Spec Kit** for spec-driven feature development
 - **CodeRabbit** for automated code review
 - **Gemini** and **Ollama Cloud** powering our production story-generation pipeline
 
@@ -36,7 +36,7 @@ We're an AI-first engineering team, leveraging AI tools throughout our developme
 
 **AI & Video**
 - Google Gemini (primary), Ollama Cloud (secondary)
-- Remotion for programmatic video rendering
+- Remotion (Bun) for programmatic video rendering
 
 **Testing & Infrastructure**
 - Vitest for unit tests
@@ -46,8 +46,8 @@ We're an AI-first engineering team, leveraging AI tools throughout our developme
 
 ## Get in touch
 
-We aren't hiring yet, but we will be soon. If you'd like to be first to hear about open roles - or just want to say hello - email us at [hello@getstorra.com](mailto:hello@getstorra.com).
+We're hiring. See open roles on our [careers page](https://getstorra.com/careers). If you don't see your role but want to say hello, email us at [hello@getstorra.com](mailto:hello@getstorra.com).
 
 ---
 
-[getstorra.com](https://getstorra.com) | [hello@getstorra.com](mailto:hello@getstorra.com)
+[getstorra.com](https://getstorra.com) | [careers](https://getstorra.com/careers) | [hello@getstorra.com](mailto:hello@getstorra.com)
