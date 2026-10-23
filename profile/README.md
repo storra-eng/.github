@@ -16,13 +16,12 @@ We're an AI-first engineering team, leveraging AI tools throughout our developme
 
 - **Claude Code** for AI-assisted coding
 - **Spec Kit** for spec-driven feature development
-- **CodeRabbit** for automated code review
 - **Gemini** and **Ollama Cloud** powering our production story-generation pipeline
 
 ## Our Tech Stack
 
 **Frontend**
-- React 18 with Vite
+- React 19 with Vite 7
 - TypeScript
 - Tailwind CSS
 - shadcn-ui (Radix)
@@ -30,17 +29,22 @@ We're an AI-first engineering team, leveraging AI tools throughout our developme
 - Framer Motion
 
 **Backend**
-- Supabase (Postgres 15, Auth, Edge Functions, Storage)
-- Deno runtime for edge functions
-- Row-level security throughout
+- Supabase (Postgres, Auth, Storage, Realtime) with row-level security throughout
+- Encore.ts for our function tier, being migrated from Deno edge functions (which still run alongside it)
+- Cloudflare Workers for edge services (geolocation, proxies)
 
 **AI & Video**
 - Google Gemini (primary), Ollama Cloud (secondary)
-- Remotion (Bun) for programmatic video rendering
+- Remotion for programmatic video rendering
+
+**Agents & Automation**
+- Cyrus for Linear-driven Claude agents
+- Paperclip for our internal autonomous-agent stack
 
 **Testing & Infrastructure**
 - Vitest for unit tests
 - Playwright for E2E tests
+- Encore Cloud (staging and prod) for the function tier
 - Lovable for frontend deployment
 - GitHub Actions for CI
 
